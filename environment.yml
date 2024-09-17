@@ -3,5 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python==3.9
-prefix: /Users/kuang/.conda/envs/py39
+  - python=3.11
+  - numpy
+  - pandas
+  - PyPDF2
